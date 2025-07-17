@@ -24,13 +24,13 @@
 
 2. 确保服务器已安装 PHP 并正确配置，且启用了 cURL 扩展。
 
-3. 如果希望脚本处理根路径请求（例如，http://your-server.com/\[目标URL]），请将脚本命名为 index.php 并放置在文档根目录。
+3. 如果希望脚本处理根路径请求（例如，http://your-server.com/[目标URL]），请将脚本命名为 index.php 并放置在文档根目录。
 
 ## 特性
 
 - **CORS 处理**：自动设置 Access-Control-Allow-Origin: \*，允许跨源请求。
 
-- **URL 验证**：确保目标 URL 有效，并在未指定协议时添加 https://。
+- **URL 验证**：确保目标 URL 有效，并在未指定协议时添加 http://。
 
 - **内容类型管理**：根据目标 URL 的文件扩展名自动设置正确的 Content-Type 头（例如，.html、json、.png 等）。
 
