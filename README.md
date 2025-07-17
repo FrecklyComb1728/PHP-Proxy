@@ -67,23 +67,14 @@
 - **内容类型支持**：脚本支持多种文件扩展名对应的 MIME 类型，如下表所示：
 
 | 扩展名 | MIME 类型 |
-
 |----------|--------------------------|
-
 | .html | text/html |
-
 | .css | text/css |
-
 | .js | application/javascript |
-
 | .json | application/json |
-
 | .png | image/png |
-
 | .jpg | image/jpeg |
-
 | .mp4 | video/mp4 |
-
 | .pdf | application/pdf |
 
 - 如果遇到特定内容类型或请求的问题，请检查服务器配置是否支持所需的 MIME 类型。
