@@ -29,8 +29,8 @@ if (empty($target_url)) {
 }
 
 // 如果URL没有协议头，默认添加 http://
-if (!preg_match('/^http?:\/\//', $target_url)) {
-    $target_url = 'http://' . $target_url;
+if (!preg_match('/^https?:\/\//', $target_url)) {
+    $target_url = 'https://' . $target_url;
 }
 
 // 验证URL格式
